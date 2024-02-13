@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@1&family=Poppins:wght@200&family=Work+Sans:wght@400;500;800&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
+}
+
+
+.header{
+    background: url("https://portablepartitions.com.au/wp-content/uploads/2022/06/hotel-restaurant-design.jpg") no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    max-height: 700px;
+    background-position: center;
+    object-fit: cover;
+
+}
+
+.navdiv {
+    background-color: white;
+    position:relative;
+    padding: 10px 10px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between ;
+    font-size:25px;
+    font-family:cursive;
+}
+
+
+nav a{
+    font-size: 18px;
+    color:black;
+    margin-right: 40px;
+}
+
+.booking-button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color:white;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+}
+
+#first-btn{
+    margin-top: 30px;
+    margin-left: 70%;
+    margin-bottom: 400px;
+}
+
+.booking-button:hover{
+    transform: scale(1.08);
+}
+
+
+
+.slogan{
+    color: white;
+    box-shadow: inset 0 0 300px black;
+    margin-left: 55%;
+    margin-top: 10%;
+    margin-right: 20px;
+    font-family:Helvetica, sans-serif ;
+    font-style: italic;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 30px;
+}
+
+
+.divider {
+    border-top: 2px solid black; /* Adjust the color and style of the divider */
+    margin: 40px auto; /* Add some space above and below the divider */
+    width: 40%;
+}
+
+.description,.events-intro {
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+
+.style-container{
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.style-image img{
+    object-fit:cover;
+    object-position: center center;
+    margin-right: 10px;
+    transition: all 300ms ease-in-out;
+    box-shadow: 0px 3px 3px 3px rgb(217, 217, 217);
+    display: block;
+    max-width: 100%;  
+}
+
+.style-image img:hover{
+    box-shadow: 5px 8px 8px rgb(154, 154, 154)
+}
+
+.style-image p{
+    margin-right: 1.5rem;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.style-image h2{
+    margin: 10px auto;
+    
+}
+
+#second-btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    margin-bottom: 50px;
+}
+
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides-container{
+    height: 600px;
+    position: relative;
+    transition: all 1000ms ease-out;
+    width: 100%;
+    
+    
+}
+
+.slide-image img{
+    height: 100%;
+    width: 55%;;
+    position: absolute;
+    object-fit: cover;
+}
+.slide-image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-left: 50px;
+    display: flex;
+
+}
+
+.next-btn, .prev-btn{
+    background-color: white;
+    font-size: 20px;
+    padding: 16px;
+    position:absolute;
+    transform: translateY(-50%);
+    box-shadow: 0 4px 8px rgb(194, 194, 194);  
+    z-index: 100;
+    cursor:pointer;
+    transition: all 300ms ease-in-out;
+    top: 50%;
+    
+    
+    
+}
+
+.next-btn:hover, .prev-btn:hover{
+    box-shadow: 2px 2px 5px rgb(117, 117, 117)
+}
+
+.next-btn{
+    right: 0;
+}
+
+.prev-btn{
+    left: 0;
+}
+
+
+.navigation-dots{
+    display:flex ;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.single-dot{
+    background-color: black;
+    height: 16px;
+    width: 16px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 0 8px;
+    cursor: pointer;
+    transition: 400ms;
+    
+}
+
+.single-dot.active{
+    background-color: rgb(204, 206, 206);
+}
+
+.slide-image .text{
+    
+    position: absolute;
+    top: 55px; 
+    left: 60%;
+    right:10%;
+    font-size: 1.2em;
+    
+}
+
+.text h2{
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-transform: uppercase;
+    font-weight:400;
+    
+}
+
+.text p{
+    line-height: 37px;
+}
+
+.text .booking-button{
+    margin-top: 30px;
+    margin-left: 35%;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(181, 181, 181);
+    font-size: 16px;
+}
