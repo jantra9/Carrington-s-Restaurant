@@ -11,7 +11,7 @@
 
 
 .header{
-    background: url("https://portablepartitions.com.au/wp-content/uploads/2022/06/hotel-restaurant-design.jpg") no-repeat;
+    background: url("../Images/page1.jpg") no-repeat;
     background-size: cover;
     min-height: 300px;
     max-height: 700px;
@@ -28,8 +28,10 @@
     align-items:center;
     justify-content:space-between ;
     font-size:25px;
-    font-family:cursive;
+    font-weight: 700;
+    
 }
+
 
 
 nav a{
@@ -214,7 +216,7 @@ nav a{
 .slide-image .text{
     
     position: absolute;
-    top: 55px; 
+    top: 30px; 
     left: 60%;
     right:10%;
     font-size: 1.2em;
@@ -227,18 +229,150 @@ nav a{
     font-family:Arial, Helvetica, sans-serif ;
     text-transform: uppercase;
     font-weight:400;
+    text-align: center;
+    margin-top: 15%;
+    
     
 }
 
 .text p{
     line-height: 37px;
+    margin-top: 10%;
 }
 
 .text .booking-button{
-    margin-top: 30px;
+    margin-top: 35px;
     margin-left: 35%;
     background-color: white;
     color: black;
     border: 1px solid rgb(181, 181, 181);
     font-size: 16px;
+}
+
+footer{
+    background-color:rgb(18, 18, 18) ;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70x 30px 20px;
+   
+}
+
+.socialIcons {
+     display: flex;
+     justify-content: center;
+}
+
+.socialIcons a{
+    padding: 8px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.socialIcons a i{
+    font-size: 1.5em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color:black;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color:white ;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display:flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 25px;
+    font-size: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer-name{
+    text-transform: uppercase;
+    opacity: 0.8;
+    margin: auto 5px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+
+
+.intro-menu-container{
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    flex: 0 0 50%;
+    overflow: hidden;
+    max-height: 800px;
+    background-color: rgb(251, 239, 241);
+    
+}
+
+.intro-menu-container img{
+    max-width: 100%;
+    display: flex;
+    flex: 0 0 50%;
+    object-fit:cover ;
+  
+   
+    
+
+}
+
+.intro-menu-container .text{
+    display: flex;
+    flex: 0 0 50%;
+    padding: 50px 50px;
+    flex-direction: column;
+
+}
+.intro-menu-container h2{
+    font-weight: 700;
+    text-align: left;
+}
+
+.intro-menu-container .description{
+    text-align: left;
+    font-size: 18px;
+    font-family: "OakesGroteskRegular";
+    line-height: 2;
 }
